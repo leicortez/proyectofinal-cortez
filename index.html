@@ -3,16 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Tienda de Lencería</title>
-    <!-- Enlace al archivo CSS para los estilos -->
     <link rel="stylesheet" href="style.css">
-    <!-- Enlace a la librería de jQuery para facilitar AJAX y animaciones -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    <!-- Título principal de la página -->
     <h1>Tienda de Lencería</h1>
 
-    <!-- Menú desplegable para seleccionar la categoría -->
+    
     <select id="categoriaSelect">
         <option value="">Selecciona una categoría</option>
         <option value="Conjuntos">Conjuntos</option>
@@ -22,7 +19,6 @@
         <option value="Deportivo">Deportivo</option>
     </select>
 
-    <!-- Tabla para mostrar los productos -->
     <table id="tablaProductos">
         <thead>
             <tr>
@@ -33,17 +29,17 @@
             </tr>
         </thead>
         <tbody>
-            <!-- Los productos se cargarán aquí dinámicamente -->
+            
         </tbody>
     </table>
 
-    <!-- Botones para interacciones adicionales -->
+   
     <div>
         <button id="guardarJson">Guardar en JSON</button>
         <button id="mostrarTodo">Mostrar Todos los Productos</button>
     </div>
 
-    <!-- Enlace al archivo JavaScript para la lógica de la página -->
+
     <script src="codigo.js"></script>
 </body>
 </html>

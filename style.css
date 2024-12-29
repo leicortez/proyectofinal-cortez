@@ -1,52 +1,51 @@
-/* Estilos para la tabla */
+
 table {
     width: 100%;
     border-collapse: collapse;
     transition: transform 0.3s ease-in-out;
-    background-color: #f9f9f9; /* Fondo de la tabla */
+    background-color: #f9f9f9; 
 }
 
-/* Estilos para las celdas de la tabla */
 th, td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: center;
 }
 
-/* Estilos para las cabeceras de la tabla */
+
 th {
-    background-color: #4CAF50; /* Fondo de las cabeceras */
+    background-color: #4CAF50; 
     color: white;
 }
 
-/* Estilos para las filas */
+
 tr:nth-child(even) {
-    background-color: #f2f2f2; /* Fondo de las filas pares */
+    background-color: #f2f2f2;
 }
 
-/* Estilos para las filas al pasar el cursor */
+
 tr:hover {
-    background-color: #ddd; /* Fondo al pasar el cursor */
+    background-color: #ddd; 
 }
 
-/* Estilos para los selectores y botones */
+
 select, button {
     margin: 10px 0;
     padding: 10px;
     border: none;
-    background-color: #4CAF50; /* Fondo de botones y selectores */
+    background-color: #4CAF50;
     color: white;
     cursor: pointer;
     border-radius: 5px;
     font-size: 16px;
 }
 
-/* Estilos para los botones al pasar el cursor */
+
 button:hover {
-    background-color: #45a049; /* Fondo de botones al pasar el cursor */
+    background-color: #45a049; 
 }
 
-/* Clase para ocultar elementos */
+
 .hidden {
     display: none;
 }
