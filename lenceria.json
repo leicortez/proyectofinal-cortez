@@ -1,0 +1,7 @@
+[
+    { "id": 1, "nombre": "Conjunto de Encaje", "precio": 5000, "categoria": "Conjuntos", "talla": "M" },
+    { "id": 2, "nombre": "Bata de Seda", "precio": 7000, "categoria": "Batas", "talla": "L" },
+    { "id": 3, "nombre": "Body de Encaje", "precio": 4500, "categoria": "Bodies", "talla": "S" },
+    { "id": 4, "nombre": "Bralette", "precio": 3000, "categoria": "Bras", "talla": "M" },
+    { "id": 5, "nombre": "Conjunto Deportivo", "precio": 4000, "categoria": "Deportivo", "talla": "M" }
+]
